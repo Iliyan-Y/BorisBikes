@@ -2,7 +2,5 @@ require "Bike"
 
 describe Bike do
   bike = Bike.new
-  it "works" do
-    expect(bike.working?).to eq nil
-  end
+  it { expect(bike.working?).to eq nil }
 end

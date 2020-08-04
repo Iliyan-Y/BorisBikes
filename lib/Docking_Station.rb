@@ -1,3 +1,4 @@
+require_relative 'Bike'
 
 class DockingStation
 
@@ -6,6 +7,7 @@ class DockingStation
   # end
 
   def release_bike
+    Bike.new
   end
 
   def dock_a_bike
